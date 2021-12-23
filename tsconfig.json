@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "module": "commonjs",
+      "esModuleInterop": true,
+      "target": "es2020",
+      "noImplicitAny": true,
+      "strict": true,
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "sourceMap": false,
+      "outDir": "./build",
+      "removeComments": true
+    },
+    "include": [
+      "src/**/*"
+    ]
+  }

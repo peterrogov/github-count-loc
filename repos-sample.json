@@ -1,0 +1,26 @@
+[
+    {
+        "repo": "microsoft/typescript",
+        "tags": [
+            "typescript",
+            "javascript",
+            "build-tools",
+            "microsoft",
+            "cross-platform"
+        ],
+        "slices": {
+            "main": {
+                "include": [
+                    "src/**/*.*"
+                ],
+                "exclude": []
+            },
+            "tools": {
+                "include": [
+                    "tests/**/*.*"
+                ],
+                "exclude": []
+            }
+        }
+    }
+]
